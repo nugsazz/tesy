@@ -7,8 +7,8 @@ Support by : Mastah Ervan
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'WpMkdsOlGk1/+/Qa78oFzZDenr7bSB7cXAI+/02gRjBspjs7X4cVI7aFpD5nxNpj2r2oS3wtPAH4XbO0L8aGAcGdGRa4mAY70nMRynthHhon2k8c5CMK7rYUx1LQTRUCtP4of0Ev5ok2Q/zz8zDWfgdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '3a0a1b522f105d8cf84feae64a08a4d4';//sesuaikan
+$channelAccessToken = '5nzsK95LJYnX7Fto8pBqevEG9cGAjFc8HOUDtwURShcdX+9y6Slf9dkcebQHtmN9BF6QZfjO0KESEag8t37gDVSJgAqX2ianiAZHLRbkuBuAv/Fy7Exm7H3GWhjRzmZ33HtImtypyWplWtPp1IfqxgdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'f546f9adf997af21f12961ea2349d090';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -616,7 +616,7 @@ function zodiak($keyword) {
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
     $text = "Makasih dh invite aku ke grup kak!! Ketik Help untuk gunain aku\n";
-    $text .= "BOT.API_PRANKBOT\n\n";
+    $text .= "BOT.API_NUGI Sazz\n\n";
     $text .= "|| -animals [text]\n";
     $text .= "|| -animasi [text]\n";
     $text .= "|| -mangals [text]\n";
@@ -641,7 +641,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "|| -ytlink [txt]\n";
     $text .= "|| -gitclone [txt]\n";
     $text .= "[KONTAK CREATOR]\n";
-    $text .= "http://line.me/ti/p/~adiputra.95\n";
+    $text .= "http://line.me/ti/p/~nugi.m\n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
